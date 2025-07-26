@@ -1,8 +1,72 @@
+html {
+    font-size: 1.2rem;
+}
+
 body {
+    margin: 0;
     font-family: sans-serif;
-    font-size: 1.2em;
     line-height: 1.6;
+    color: #cdd6f4;
+    background-color: #1e1e2e;
+}
+
+header {
+    padding: 0.5rem;
+    border-bottom: 0.2rem solid #cba6f7;
+}
+
+nav {
+    font-size: 2rem;
+    font-style: italic;
+    text-align: center;
+}
+
+nav a {
+    color: inherit;
+}
+
+main {
+    padding: 0 1rem;
+}
+
+article {
     margin: auto;
-    max-width: 40em;
-    padding: 2em;
+    max-width: 35rem;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 1.1;
+}
+
+.post-title {
+    margin-bottom: 0;
+}
+
+time {
+    font-family: monospace;
+    color: #7f849c;
+}
+
+h2 {
+    font-size: 2rem;
+    line-height: 1.2;
+}
+
+address {
+    font-style: inherit;
+}
+
+.blog {
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: inherit;
+    color: #89b4fa;
+}
+
+a:hover {
+    text-decoration: underline;
 }
