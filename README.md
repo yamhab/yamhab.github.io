@@ -1,6 +1,6 @@
 # yamhab.github.io
 
-*My GitHub Pages website*
+*My personal GitHub Pages website*
 
 ---
 
