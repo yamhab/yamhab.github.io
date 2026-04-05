@@ -10,6 +10,34 @@ body {
     background-color: #1e1e2e;
 }
 
+a {
+    text-decoration: inherit;
+    color: #89b4fa;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+address {
+    font-style: inherit;
+}
+
+time {
+    font-family: monospace;
+    color: #7f849c;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 1.1;
+}
+
+h2 {
+    font-size: 2rem;
+    line-height: 1.2;
+}
+
 header {
     padding: 0.5rem;
     border-bottom: 0.2rem solid;
@@ -34,39 +62,11 @@ article {
     max-width: 35rem;
 }
 
-h1 {
-    font-size: 3rem;
-    line-height: 1.1;
-}
-
-.post-title {
-    margin-bottom: 0;
-}
-
-time {
-    font-family: monospace;
-    color: #7f849c;
-}
-
-h2 {
-    font-size: 2rem;
-    line-height: 1.2;
-}
-
-address {
-    font-style: inherit;
-}
-
 .blog {
     padding: 0;
     list-style: none;
 }
 
-a {
-    text-decoration: inherit;
-    color: #89b4fa;
-}
-
-a:hover {
-    text-decoration: underline;
+.post-title {
+    margin-bottom: 0;
 }
